@@ -4,7 +4,7 @@ A fun project using Javascript to create a rock, paper, scissors game against th
 
 This project is from The Odin Project's [curriculum](https://www.theodinproject.com/courses/web-development-101/lessons/rock-paper-scissors).
 
-See a **live preview** of the page [here](#).
+See a **live preview** of the page [here](https://kelem7.github.io/rockpaperscissors/).
 
 
 ## Summary 
