@@ -75,12 +75,13 @@
       let userScore = 0; 
       let tieScore = 0;
 
-
+      //Loop to play five rounds
       for (let i = 1; i <= rounds; i++) {
           //Return response to playing a round
           roundResult  = playRound(computerPlay(), userPlay());
       }
 
+      //Add points to each score for wins/losses/ties
       if (roundResult === 'win') {
           userScore++;
       } else if (roundResult === 'lose') {
@@ -89,6 +90,7 @@
           tieScore++;
       }
 
+      //Determine the winner
       if (computerScore > userScore) {
           finalResult = 'You lose!';
       } else if (computerScore < userScore) {
@@ -97,6 +99,7 @@
           finalResult = 'You tied!';
       }
 
+      //Return the final score
       finalScore = 
       `FINAL SCORE
       __________________
