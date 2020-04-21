@@ -1,9 +1,58 @@
 <!DOCTYPE html>
 <head>
-<script type="text/javascript" src="apps.js"></script>
+    <link rel="stylesheet" type="text/css" href="rps.css">
+    <!--install Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <p>Please open console to play Rock, Paper, Scissors.</p>
+    <div class="container">
+
+        <h1>rock paper scissors</h1>
+        <div class="imageOptions">
+            <div class="userOptions">
+                <div class="userHeader">
+                    <h2>Choose your weapon:</h2>
+                </div>
+                <div class="userImages">
+                    <img class="userImg" src="img/rock.png" alt="rock"/>
+                    <img class="userImg" src="img/paper.png" alt="paper"/>
+                    <img class="userImg" src="img/scissors.png" alt="scissors"/>
+                </div>
+            </div>
+            <div class="computerOption">
+                <div class="computerHeader">
+                    <h2>Computer's Weapon:</h2>
+                </div>
+                <img id="computerPic" src="img/questionmark.png"/>
+            </div>
+        </div>
+        <div class="resultContainer">
+            <h2 class="resultText">Click a weapon to challenge the computer to five rounds! </h2>
+        </div>
+        <div class="scoreBoard">
+            <div>
+                <div class="playerTitle">
+                    <h2>Player</h2>
+                </div>
+                <p class="userScore">0</p>
+            </div>
+            <div>
+                <div class="tieTitle">
+                    <h2>Tie</h2>
+                </div>
+                <p class="tieScore">0</p>
+            </div>
+            <div>
+                <div class="computerTitle">
+                    <h2>Computer</h2>
+                </div>
+                <p class="computerScore">0</p>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript" src="apps.js"></script>
 
 </body>
 </html>

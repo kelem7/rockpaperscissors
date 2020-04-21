@@ -1,0 +1,183 @@
+body {
+    background-color: #C96567;
+    color: #fff;
+    font-family: 'Bebas Neue', arial;
+    letter-spacing: 0.15em;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+/*User Image Selection CSS*/
+
+.imageOptions {
+    display: flex;
+    justify-content: center;
+}
+
+.imageOptions img {
+    max-height: 200px;
+    margin: 20px;
+    place-self: center;
+}
+
+.userOptions {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+    justify-items: center;
+}
+
+.userHeader {
+    grid-column: 1 / 4;
+    width: 250px;
+    height: 60px;
+    transform: skew(10deg);
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: #384053;
+    color: #C96567;
+    margin-bottom: 30px;
+}
+
+.userHeader h2 {
+    transform: skew(-10deg);
+}
+
+.userImages {
+    grid-column: 1 / 4;
+    border-right: 2px solid #384053;
+    padding-right: 75px;
+}
+
+.userImg:hover {
+    -webkit-filter: drop-shadow(1px 1px 7px #fff);
+    filter: drop-shadow(1px 1px 7px #fff);
+    cursor: pointer; 
+    transform: scale(1.1);
+}
+
+/*Computer Image Selection CSS*/
+
+.computerHeader {
+    width: 250px;
+    height: 60px;
+    transform: skew(-10deg);
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: #384053;
+    color: #C96567;
+    margin-bottom: 30px;
+}
+
+.computerHeader h2 {
+    transform: skew(10deg);
+}
+.computerOption {
+    width: 300px;
+    min-height: 200px;
+    display: grid;
+    justify-content: center;
+}
+
+.computerOption img {
+    margin-top: 0;
+}
+
+/*Result of Round Text CSS*/
+
+.resultContainer {
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Play Again Button CSS*/
+.playAgain {
+    margin: 10px;
+    padding: 5px;
+    background-color: #000;
+    color: #C96567;
+    border: none;
+    font-family: 'Bebas Neue', arial;
+    font-size: 1.8em;
+}
+
+.playAgain:hover {
+    color: white;
+}
+
+/*Scoreboard CSS*/
+.scoreBoard {
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    color: #384053;
+}
+
+.scoreBoard div {
+    padding: 0 20px;
+}
+
+.scoreBoard h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.scoreBoard p {
+    padding: 5px;
+    margin: 5px;
+    font-size: 2em;
+}
+
+.playerTitle {
+    width: 100px;
+    height: 50px;
+    transform: skew(-10deg);
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: rgb(240, 220, 220);
+    color: #C96567;
+}
+
+.playerTitle h2 {
+    transform: skew(10deg);
+}
+
+.computerTitle {
+    width: 130px;
+    height: 50px;
+    transform: skew(10deg);
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: #000;
+    color: #C96567;
+}
+
+.computerTitle h2 {
+    transform: skew(-10deg);
+}
+
+.tieTitle {
+    width: 50px;
+    height: 50px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: #384053;
+    color: #C96567;
+}
+
