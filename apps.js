@@ -6,9 +6,6 @@ let finalScore;
 let computerScore = 0;
 let userScore = 0; 
 let tieScore = 0;
-/*const images = {rock: "img/rock.png", 
-    paper: "img/paper.png", 
-    scissors: "img/scissors.png"};*/
 
 //DOM Selections 
 const computerChoiceImage = document.querySelector('#computerPic');
