@@ -11,7 +11,7 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 /*User Image Selection CSS*/
@@ -22,7 +22,7 @@ h1 {
 }
 
 .imageOptions img {
-    max-height: 200px;
+    max-height: 165px;
     margin: 20px;
     place-self: center;
 }
@@ -37,7 +37,7 @@ h1 {
 .userHeader {
     grid-column: 1 / 4;
     width: 250px;
-    height: 60px;
+    height: 40px;
     transform: skew(10deg);
     display: flex;
 	justify-content: center;
@@ -68,7 +68,7 @@ h1 {
 
 .computerHeader {
     width: 250px;
-    height: 60px;
+    height: 40px;
     transform: skew(-10deg);
     display: flex;
 	justify-content: center;
@@ -97,15 +97,15 @@ h1 {
 .resultContainer {
     margin: 0 auto;
     text-align: center;
-    padding: 40px;
+    padding: 35px 35px 20px 25px;
     display: flex;
     justify-content: center;
 }
 
 /* Play Again Button CSS*/
 .playAgain {
-    margin: 10px;
-    padding: 5px;
+    margin: 15px;
+    padding: 5px 10px;
     background-color: #000;
     color: #C96567;
     border: none;
@@ -120,7 +120,7 @@ h1 {
 /*Scoreboard CSS*/
 .scoreBoard {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.25em;
     display: flex;
     justify-content: center;
     color: #384053;
@@ -143,7 +143,7 @@ h1 {
 
 .playerTitle {
     width: 100px;
-    height: 50px;
+    height: 40px;
     transform: skew(-10deg);
     display: flex;
 	justify-content: center;
@@ -158,7 +158,7 @@ h1 {
 
 .computerTitle {
     width: 130px;
-    height: 50px;
+    height: 40px;
     transform: skew(10deg);
     display: flex;
 	justify-content: center;
@@ -173,7 +173,7 @@ h1 {
 
 .tieTitle {
     width: 50px;
-    height: 50px;
+    height: 40px;
     display: flex;
 	justify-content: center;
 	align-items: center;
